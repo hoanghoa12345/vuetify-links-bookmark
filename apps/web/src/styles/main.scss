@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
+@import "./variables.scss";
+@import "./settings.scss";
+
+.button-primary {
+  background-color: $button-background;
+}
+.container-home {
+  .form-vertical {
+    display: flex;
+  }
+  .card-image {
+    min-height: $card-min-height;
+    background-color: $color-light-blue;
+  }
+}
+
+@import "vuetify/lib/styles/main.sass";
+
+/*--Home--*/
+
+.progress__bar--overlay {
+  min-height: 500px;
+}

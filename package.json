@@ -1,0 +1,17 @@
+{
+  "name": "vuetify-project",
+  "version": "0.1.1",
+  "private": "true",
+  "workspaces": [
+    "packages/*",
+    "app/*"
+  ],
+  "scripts": {
+    "start:web": "pnpm -F web run dev",
+    "start:server": "pnpm -F server run server",
+    "test": "echo 'test'"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "packageManager": "pnpm@7.23.0"
+}
